@@ -10,7 +10,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const app = express();
 const server = http.createServer(app);
 const io = new Server(server);
-const PORT = 3001;
+const PORT = 4000;
 
 let scannerProcess = null;
 
